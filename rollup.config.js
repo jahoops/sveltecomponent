@@ -11,10 +11,12 @@ export default {
 	input: 'src/index.svelte',
 	output: [
 		{ file: pkg.module, 'format': 'es' },
-		{ file: pkg.main, 'format': 'umd', name }
+		{ file: pkg.main, 'format': 'iife', name }
 	],
 	plugins: [
-		svelte(),
+		svelte( {
+					customElement: true
+				}),
 		resolve()
 	]
 };

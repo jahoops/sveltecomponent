@@ -1,5 +1,5 @@
 {
-  "name": "SvelteComponent",
+  "name": "counter",
   "svelte": "src/index.svelte",
   "module": "index.mjs",
   "main": "index.js",
@@ -20,5 +20,9 @@
     "src",
     "index.mjs",
     "index.js"
-  ]
+  ],
+  "version": "1.0.0",
+  "repository": "https://github.com/jahoops/sveltecomponent.git",
+  "author": "Jahoops <jwhooper@gmail.com>",
+  "license": "MIT"
 }
